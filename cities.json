@@ -1,0 +1,113 @@
+var data = '{ \
+    "type": "FeatureCollection",\
+    "features": [\
+      {\
+        "type": "Feature",\
+        "properties": {\
+            "name": "New York City",\
+            "population": 8622698\
+        },\
+        "geometry": {\
+          "type": "Point",\
+          "coordinates": [40.7127, -74.0059]\
+        }\
+      },\
+      {\
+        "type": "Feature",\
+        "properties": {\
+            "name": "Los Angeles",\
+            "population": 3999759\
+        },\
+        "geometry": {\
+          "type": "Point",\
+          "coordinates": [34.05, -118.25]\
+        }\
+      },\
+      {\
+        "type": "Feature",\
+        "properties": {\
+            "name": "Chicago",\
+            "population": 2716450\
+        },\
+        "geometry": {\
+          "type": "Point",\
+          "coordinates": [41.836944, -87.684722]\
+        }\
+      },\
+      {\
+        "type": "Feature",\
+        "properties": {\
+            "name": "Houston",\
+            "population": 2312717\
+        },\
+        "geometry": {\
+          "type": "Point",\
+          "coordinates": [29.762778, -95.383056]\
+        }\
+      },\
+      {\
+        "type": "Feature",\
+        "properties": {\
+            "name": "Phoenix",\
+            "population": 1626078\
+        },\
+        "geometry": {\
+          "type": "Point",\
+          "coordinates": [33.45, -112.066667]\
+        }\
+      },\
+      {\
+        "type": "Feature",\
+        "properties": {\
+            "name": "Philadelphia",\
+            "population": 1580863\
+        },\
+        "geometry": {\
+          "type": "Point",\
+          "coordinates": [40.009376, -75.133346]\
+        }\
+      },\
+      {\
+        "type": "Feature",\
+        "properties": {\
+            "name": "San Antonio",\
+            "population": 1511946\
+        },\
+        "geometry": {\
+          "type": "Point",\
+          "coordinates": [29.416667, -98.5]\
+        }\
+      },\
+      {\
+        "type": "Feature",\
+        "properties": {\
+            "name": "San Diego",\
+            "population": 1419516\
+        },\
+        "geometry": {\
+          "type": "Point",\
+          "coordinates": [32.715, -117.1625]\
+        }\
+      },\
+      {\
+        "type": "Feature",\
+        "properties": {\
+            "name": "Dallas",\
+            "population": 1341075\
+        },\
+        "geometry": {\
+          "type": "Point",\
+          "coordinates": [32.783333, -96.8]\
+        }\
+      },\
+      {\
+        "type": "Feature",\
+        "properties": {\
+            "name": "San Jose",\
+            "population": 1035317\
+        },\
+        "geometry": {\
+          "type": "Point",\
+          "coordinates": [37.2967, -121.8189]\
+        }\
+      }]}';

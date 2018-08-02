@@ -1,0 +1,47 @@
+body {
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#dataContainer {
+  background-color: #ccc;
+  padding: 30px;
+}
+#dataContainer th {
+  color: #fff;
+  background-color: #f442a1;
+  font-weight: 800;
+  font-size: 1.2em;
+  padding: 5px;
+  /* border-bottom: 3px solid #f442a1;
+  border-radius: 3px */
+}
+#dataContainer td {
+  padding: 10px;
+}
+#dataContainer table {
+  border-collapse: collapse;
+}
+#dataContainer tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+#dataContainer tr:nth-child(odd) {
+  background-color: #f9b1d8;
+}
+#dataContainer tr {
+  border-bottom: 2px solid #f442a1;
+}
+#dataContainer tr:last-child {
+  border-bottom: none;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  color: #f442a1;
+}

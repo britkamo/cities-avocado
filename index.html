@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Largest Cities In the US</title>
+        <link href="https://fonts.googleapis.com/css?family=Dosis|Great+Vibes|News+Cycle" rel="stylesheet">
+        <link href="cities.css" media='all' rel='stylesheet'>
+        <script type="text/javascript" src="cities.json"></script>
+        <script type="text/javascript">
+          function getData(){
+            return JSON.parse(data);
+          }
+          function renderTable(){
+            var cityCollection = getData();
+            var cities = cityCollection.features;
+            //console.log(cityCollection);
+            var tableCode = "<table>"+
+              "<tr>" +
+                "<th>City</th>" +
+                "<th>Population</th>" +
+                "<th>Lat/Lon</th>" +
+              "</tr>";
+
+              for (var i=0; i<cities.length; i++) {
+                var city = cities[i];
+                //console.log(city);
+                tableCode += "<tr>"+
+                                "<td>"+city.properties.name+"</td>"+
+                                "<td>"+city.properties.population+"</td>"+
+                                "<td>("+city.geometry.coordinates[0]+", "+city.geometry.coordinates[1]+")</td>"+
+                              "</tr>";
+              }
+              tableCode += "</table>";
+
+              var container = document.getElementById("dataContainer");
+              container.innerHTML = tableCode;
+
+          }
+        </script>
+    </head>
+    <body onload="renderTable()">
+        <h1>Largest Cities in the United States</h1>
+        <div id="dataContainer"></div>
+    </body>
+</html>
